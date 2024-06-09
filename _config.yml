@@ -37,10 +37,10 @@ custom_gradle_template: true
 
 ### The following properties are constant for most projects
 
-main_site_url: https://spring.io
-projects_site_url: https://projects.spring.io
+main_site_url: https://UncleJuJu.github.io
+projects_site_url: https://projects.UncleJuJu.github.io
 forum_url: https://stackoverflow.com/questions/tagged/spring-security-oauth2
 
 version: 2.0.10.BUILD-SNAPSHOT
 exclude: [code]
-questions_url: https://spring.io/questions
+questions_url: https://UncleJuJu.github.io/questions
