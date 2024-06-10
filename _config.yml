@@ -14,15 +14,17 @@ gems:
   - jekyll-paginate
 
 ### The following properties will change on a project-by-project basis
-
+# 以下属性将根据每个项目的具体情况发生变化
 # Context path in the remote website (usually /<project>), will be prepended to absolute URLs for static resources
-baseurl: /spring-security-oauth
+baseurl: /
 
 # Name of the project for display in places like page titles
+# 用于在页面标题等地方显示的项目名称
 name: Spring Security OAuth
 
 # ID of the project in the metadata API at spring.io (if this is not a
 # valid project ID the javascript widgets in the home page will not work)
+# # 项目在 spring.io 的元数据 API 中的 ID（如果这不是一个 有效的项目 ID，主页上的 javascript 部件将无法工作）
 project: spring-security-oauth
 
 # Project github URL
@@ -32,6 +34,7 @@ github_repo_url: https://github.com/spring-projects/spring-security-oauth
 forum: https://stackoverflow.com/questions/tagged/spring-security-oauth2
 
 # If you want to include a custom pom.xml or gradle template set these value to true and add _include files
+# 如果要包含自定义 pom.xml 或 gradle 模板，请将这些值设置为 true 并添加 _include 文件
 custom_pom_template: true
 custom_gradle_template: true
 
